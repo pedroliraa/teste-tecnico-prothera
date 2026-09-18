@@ -179,7 +179,7 @@ public class Principal {
                     .divide(salarioMinimo, 2, java.math.RoundingMode.HALF_UP);
 
             System.out.println(
-                    f.getNome() + " - " + quantidade + " salários mínimos"
+                    f.getNome() + " - " + quantidade.toString().replace(".", ",") + " salários mínimos"
             );
         }
     }
